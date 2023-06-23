@@ -79,12 +79,12 @@
   display: none;
 }
 
-.active {
+.burger-active {
   transition: all 0.5s ease;
   left: 0;
   opacity: 1;
 }
 
-.active ul {
+.burger-active ul {
   display: block;
 }
