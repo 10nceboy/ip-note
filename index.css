@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.cdnfonts.com/css/tahoma');
+
+@layer base {
+  html {
+    font-family: 'Tahoma', sans-serif;
+  }
+}
+
+.wrapper {
+  width: calc(100vw - 24px);
+  max-width: calc(100vw - 24px);
+}
+
+.burger-button__line--1 {
+  stroke-dasharray: 60 207;
+  stroke-width: 6;
+}
+
+.burger-button__line {
+  fill: none;
+  stroke: black;
+  stroke-width: 6;
+  -webkit-transition: stroke-dasharray 0.6s cubic-bezier(0.4, 0, 0.2, 1),
+    stroke-dashoffset 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: stroke-dasharray 0.6s cubic-bezier(0.4, 0, 0.2, 1),
+    stroke-dashoffset 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.burger-button__line--2 {
+  stroke-dasharray: 60 60;
+  stroke-width: 6;
+}
+
+.burger-button__line {
+  fill: none;
+  stroke: black;
+  stroke-width: 6;
+  -webkit-transition: stroke-dasharray 0.6s cubic-bezier(0.4, 0, 0.2, 1),
+    stroke-dashoffset 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: stroke-dasharray 0.6s cubic-bezier(0.4, 0, 0.2, 1),
+    stroke-dashoffset 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.burger-button__line--3 {
+  stroke-dasharray: 60 207;
+  stroke-width: 6;
+}
+
+.burger-button-opened .burger-button__line--1 {
+  stroke-dasharray: 90 207;
+  stroke-dashoffset: -134;
+  stroke-width: 6;
+  stroke: white;
+}
+
+.burger-button-opened .burger-button__line--2 {
+  stroke-dasharray: 1 60;
+  stroke-dashoffset: -30;
+  stroke-width: 6;
+  stroke: white;
+}
+
+.burger-button-opened .burger-button__line--3 {
+  stroke-dasharray: 90 207;
+  stroke-dashoffset: -134;
+  stroke-width: 6;
+  stroke: white;
+}
+
+.burger-menu {
+  transition: all 0.5s ease;
+}
+
+.burger-menu ul {
+  display: none;
+}
+
+.active {
+  transition: all 0.5s ease;
+  left: 0;
+  opacity: 1;
+}
+
+.active ul {
+  display: block;
+}
