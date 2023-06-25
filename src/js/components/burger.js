@@ -6,12 +6,12 @@ const menu = document.querySelector('.burger-menu');
 const logoIcon = document.querySelector('.header-icon');
 let opened = false;
 
-button.addEventListener('click', () => {
+const handleBurgerClick = () => {
   if (opened === false) {
     button.classList.add('burger-button-opened');
     setTimeout(() => {
       logoIcon.innerHTML = logoIcons.active;
-    }, 100);
+    }, 200);
     menu.classList.add('burger-active');
     toggleOverflow(true);
   } else {
@@ -21,4 +21,6 @@ button.addEventListener('click', () => {
     toggleOverflow(false);
   }
   opened = !opened;
-});
+};
+
+button.addEventListener('click', handleBurgerClick);
