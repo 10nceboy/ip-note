@@ -4,8 +4,11 @@ export default {
   theme: {
     screens: {
       sm: '320px',
-      smx: '480px',
-      md: '640px',
+      smx: '420px',
+      md: '480px',
+      mdx: '520px',
+      tb: '720px',
+      tbx: '820px',
       lg: '960px',
       xl: '1200px',
       '2xl': '1536px'
@@ -26,6 +29,7 @@ export default {
         'ui-blue': '#2B5DA2',
         'ui-black': '#313C4E',
         'ui-gray': '#62738D',
+        'ui-dark-gray': '#E6E8ED',
         'ui-light-gray': '#F3F4F7',
         'ui-orange': '#F0A93B'
       }

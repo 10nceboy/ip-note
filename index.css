@@ -10,6 +10,28 @@
   }
 }
 
+@layer components {
+  .card {
+    @apply relative flex flex-col items-center justify-center rounded-2xl bg-white shadow-inner;
+  }
+
+  .card-big {
+    @apply min-w-[296px] min-h-[345px];
+  }
+
+  .card-small {
+    @apply min-w-[296px] min-h-[323px];
+  }
+
+  .card-inner {
+    @apply rotate-[2.55deg] bg-ui-light-gray rounded-2xl min-w-[260px];
+  }
+
+  .ellipse {
+    @apply border border-ui-dark-gray rounded-full;
+  }
+}
+
 .wrapper {
   width: calc(100vw - 24px);
   max-width: calc(100vw - 24px);
@@ -83,8 +105,97 @@
   transition: all 0.5s ease;
   left: 0;
   opacity: 1;
+  z-index: 2;
 }
 
 .burger-active ul {
   display: block;
+}
+
+.link:active rect {
+  fill: white;
+}
+
+.link:active path {
+  fill: orange;
+}
+
+.flip-card {
+  perspective: 1000px;
+  cursor: pointer;
+}
+
+.flip-card-inner {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.5s;
+  box-shadow: -2px 2px 4px 0px rgba(43, 93, 162, 0.08),
+    4px 4px 6px 0px rgba(43, 93, 162, 0.06),
+    -2px -2px 4px 0px rgba(43, 93, 162, 0.1) inset;
+  transform-style: preserve-3d;
+}
+
+.flip-card-front {
+  cursor: pointer;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transform: rotate(2.54deg);
+}
+
+.flip-card-back {
+  transform: rotate(-2.54deg) rotateY(180deg);
+}
+
+.fade-in {
+  animation: fade-in 1s ease-in-out;
+}
+
+.fade-in-delay {
+  animation: fade-in-delay 1s ease-in-out;
+}
+
+@media screen and (min-width: 960px) {
+  .wrapper {
+    max-width: unset;
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in-delay {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+body {
+  overflow: hidden;
 }
