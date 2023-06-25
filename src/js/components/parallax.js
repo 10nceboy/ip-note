@@ -5,5 +5,6 @@ const parallaxInstance = new Parallax(scene, {
   hoverOnly: true,
   relativeInput: true,
   selector: '.p-layer',
-  pointerEvents: true
+  pointerEvents: true,
+  scalarY: 20
 });
