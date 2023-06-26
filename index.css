@@ -37,6 +37,12 @@
   max-width: calc(100vw - 24px);
 }
 
+@media screen and (min-width: 960px) {
+  .wrapper {
+    max-width: unset;
+  }
+}
+
 .burger-button__line--1 {
   stroke-dasharray: 60 207;
   stroke-width: 6;
@@ -120,6 +126,10 @@
   fill: orange;
 }
 
+.flip-cards {
+  display: none !important;
+}
+
 .flip-card {
   perspective: 1000px;
   cursor: pointer;
@@ -169,6 +179,14 @@
 @media screen and (min-width: 960px) {
   .wrapper {
     max-width: unset;
+  }
+
+  .flip-cards {
+    display: block !important;
+  }
+
+  .main-header {
+    display: flex !important;
   }
 }
 
