@@ -203,6 +203,7 @@
 
   .main-header {
     display: flex !important;
+    pointer-events: all;
   }
 }
 

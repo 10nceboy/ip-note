@@ -9,7 +9,6 @@ if (['tablet', 'laptop'].includes(deviceType)) {
     hoverOnly: true,
     relativeInput: true,
     selector: '.p-layer',
-    pointerEvents: true,
     scalarY: 20
   });
 }
