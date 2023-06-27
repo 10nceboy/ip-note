@@ -4,14 +4,18 @@ export default {
   theme: {
     screens: {
       sm: '320px',
-      smx: '420px',
+      smx: '375px',
+      mx: '425px',
       md: '480px',
       mdx: '520px',
       tb: '720px',
       tbx: '820px',
       lg: '960px',
-      xl: '1200px',
-      '2xl': '1536px'
+      xl: '1280px',
+      '2xl': '1536px',
+      '2k': '1920px',
+      '3k': '2560px',
+      '4k': '3500px'
     },
 
     fontSize: {
@@ -20,8 +24,12 @@ export default {
       base: ['16px', '140%'],
       md: ['18px', '130%'],
       lg: ['20px', '130%'],
+      lgx: ['24px', '130%'],
       xl: ['32px', '125%'],
-      '2xl': ['36px', '120%']
+      '2xl': ['36px', '120%'],
+      '3xl': ['48px', '120%'],
+      '4xl': ['90px', '120%'],
+      '5xl': ['180px', '120%']
     },
 
     extend: {

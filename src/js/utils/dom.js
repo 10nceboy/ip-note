@@ -22,3 +22,21 @@ export const toggleOverflow = (flag) => {
     document.querySelector('html').style.overflow = '';
   }
 };
+
+export const getDeviceType = () => {
+  const breakpoints = {
+    mobile: 360,
+    smartphone: 480,
+    tablet: 960,
+    laptop: 1200
+  };
+
+  let deviceType = '';
+
+  for (const [key, value] of Object.entries(breakpoints)) {
+    if (window.matchMedia(`(min-width: ${value}px)`).matches) {
+      deviceType = key;
+    }
+  }
+  return deviceType || 'mobile';
+};
