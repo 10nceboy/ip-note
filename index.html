@@ -136,405 +136,138 @@
       </div>
     </header>
     <main>
-      <div
-        class="fixed menu hidden lg:flex flex-row z-10 right-[40px] bottom-[40px]"
-      >
-        <nav class="lg:min-w-[183px] xl:min-w-[283px]">
-          <ul class="flex flex-row">
-            <li
-              class="text-ui-black mr-8 hover:text-ui-orange active:text-ui-orange transition ease-in-out xl:text-base"
-            >
-              <a href="#" aria-label="Services">Services</a>
-            </li>
-            <li
-              class="text-ui-black text-base mr-8 hover:text-ui-orange active:text-ui-orange transition ease-in-out"
-            >
-              <a href="#" aria-label="Company">Company</a>
-            </li>
-            <li
-              class="text-ui-black text-base mr-8 hover:text-ui-orange active:text-ui-orange transition ease-in-out"
-            >
-              <a href="#" aria-label="Blog">Blog</a>
-            </li>
-            <li
-              class="text-ui-black text-base hover:text-ui-orange active:text-ui-orange transition ease-in-out"
-            >
-              <a href="#" aria-label="Help">Help</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-      <div
-        class="hidden ellipses lg:flex flex-col items-center justify-center absolute z-[-1] w-screen h-screen overflow-hidden"
-      >
-        <svg
-          class="w-full h-full"
-          width="1236"
-          height="750"
-          viewBox="0 0 1236 750"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <circle cx="618" cy="375" r="207.5" stroke="#E6E8ED" />
-          <circle cx="618" cy="375" r="336.5" stroke="#E6E8ED" />
-          <circle cx="618" cy="375" r="472.5" stroke="#E6E8ED" />
-          <circle cx="618" cy="375" r="617.5" stroke="#E6E8ED" />
-        </svg>
-      </div>
-      <div id="scene">
+      <section class="hero">
         <div
-          class="mx-auto mt-24 wrapper flex flex-col items-center lg:mt-0 lg:mx-0 lg:h-screen lg:w-screen lg:justify-center 2xl:scale-125 2k:scale-[1.4] 4k:scale-[3]"
+          class="fixed menu hidden lg:flex flex-row z-10 right-[3%] bottom-[5%] p-layer 2xl:scale-125 2xl:right-[5%] 2k:scale-[1.4] 3k:scale-[2] 3k:right-[8%] 4k:scale-[2.7] 4k:right-[10%]"
+          data-depth="1"
         >
-          <div
-            class="main-header flex flex-col items-center transition-opacity ease-in duration-500 p-layer"
-            data-depth="0.01"
-          >
-            <svg
-              class="mb-5 hidden lg:block"
-              width="158"
-              height="45"
-              viewBox="0 0 158 45"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M2.77085 4.69819L37.8447 1.0001C38.3649 0.947303 38.8848 1.10281 39.2908 1.43261C39.6968 1.76241 39.9558 2.23969 40.0112 2.7601L43.706 37.8763C43.7587 38.397 43.6034 38.9174 43.2739 39.3238C42.9444 39.7301 42.4675 39.9894 41.9476 40.0449L6.87378 43.743C6.35242 43.7959 5.83127 43.6407 5.42361 43.3111C5.01594 42.9815 4.75472 42.5042 4.69671 41.983L1.00198 6.87724C0.949251 6.35378 1.10572 5.83071 1.43718 5.42238C1.76865 5.01406 2.24814 4.75369 2.77085 4.69819Z"
-                fill="#313C4E"
-              />
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M6.52778 8.95143L32.0141 3.9962C32.8468 3.83633 33.7088 4.01342 34.4112 4.48866C35.1136 4.9639 35.599 5.6985 35.7612 6.53144L40.7747 32.041C40.9344 32.8744 40.7575 33.7371 40.2827 34.4402C39.8079 35.1432 39.074 35.6291 38.2418 35.7914L12.7031 40.8095C11.8692 40.9696 11.0059 40.7928 10.3018 40.3178C9.59776 39.8427 9.11016 39.108 8.94558 38.2743L3.99485 12.7124C3.91424 12.299 3.91582 11.8737 3.99952 11.4609C4.08321 11.048 4.24736 10.6558 4.4826 10.3065C4.71783 9.95722 5.01953 9.65776 5.37046 9.42525C5.72139 9.19274 6.11465 9.03174 6.52778 8.95143V8.95143Z"
-                fill="#F0A93B"
-              />
-              <path
-                d="M23.3784 22.696V15.6037H26.2568C26.8648 15.5928 27.4713 15.6705 28.057 15.8341C28.5552 15.9665 29.0216 16.1981 29.4282 16.5151C29.812 16.8075 30.1147 17.1934 30.3074 17.636C30.5031 18.1108 30.5992 18.6207 30.59 19.1341C30.6143 19.6292 30.5273 20.1235 30.3352 20.5804C30.1432 21.0374 29.8511 21.4453 29.4805 21.7741C29.0842 22.1102 28.6201 22.3568 28.1198 22.497C27.5151 22.6549 26.8922 22.7324 26.2672 22.7275L23.3784 22.696ZM18.6894 11.2456V33.8741H23.3784V27.117H26.3614C27.0368 27.1192 27.7116 27.0772 28.3815 26.9913C28.9883 26.9042 29.5869 26.7676 30.1713 26.5827C30.7067 26.4061 31.2251 26.1817 31.7204 25.9122C32.1813 25.6643 32.6131 25.3656 33.0078 25.0218C33.7931 24.3441 34.4065 23.4896 34.7976 22.5284C35.2199 21.4586 35.4262 20.3157 35.4046 19.1656C35.4262 18.0155 35.2199 16.8725 34.7976 15.8027C34.6052 15.3218 34.3519 14.8676 34.044 14.4513C33.737 14.0437 33.386 13.6713 32.9973 13.3408C32.6053 12.9936 32.173 12.6946 31.7099 12.4503C31.2155 12.1792 30.6969 11.9548 30.1608 11.7799C29.5764 11.595 28.9778 11.4583 28.371 11.3713C27.7011 11.2854 27.0263 11.2434 26.351 11.2456H18.6894ZM15.7796 33.8741V17.8141H11.0906V33.8741H15.7796ZM15.7796 15.9389V11.2456H11.0906V15.9389H15.7796Z"
-                fill="#313C4E"
-              />
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M131.962 6.30103H155.564C155.988 6.30377 156.394 6.47353 156.693 6.77353C156.993 7.07353 157.163 7.47963 157.165 7.90388V37.2372C157.163 37.6615 156.993 38.0676 156.693 38.3676C156.394 38.6676 155.988 38.8373 155.564 38.8401H131.962C131.538 38.8373 131.132 38.6676 130.832 38.3676C130.533 38.0676 130.363 37.6615 130.36 37.2372V7.90388C130.363 7.47963 130.533 7.07353 130.832 6.77353C131.132 6.47353 131.538 6.30377 131.962 6.30103ZM75.2427 6.30103H98.8555C99.2766 6.30654 99.6786 6.47784 99.9744 6.77784C100.27 7.07783 100.436 7.48238 100.436 7.90388V37.2372C100.436 37.6605 100.269 38.0666 99.9706 38.3669C99.6726 38.6672 99.2679 38.8373 98.845 38.8401H75.2427C74.8188 38.8373 74.4131 38.6676 74.1134 38.3676C73.8136 38.0676 73.6441 37.6615 73.6413 37.2372V7.90388C73.6441 7.47963 73.8136 7.07353 74.1134 6.77353C74.4131 6.47353 74.8188 6.30377 75.2427 6.30103ZM103.576 6.30103H127.189C127.613 6.30377 128.018 6.47353 128.318 6.77353C128.618 7.07353 128.787 7.47963 128.79 7.90388V37.2372C128.787 37.6615 128.618 38.0676 128.318 38.3676C128.018 38.6676 127.613 38.8373 127.189 38.8401H103.576C103.153 38.8373 102.748 38.6672 102.45 38.3669C102.152 38.0666 101.985 37.6605 101.985 37.2372V7.90388C101.985 7.48059 102.152 7.07447 102.45 6.77418C102.748 6.47388 103.153 6.30379 103.576 6.30103ZM46.8676 6.30103H70.4908C70.9147 6.30377 71.3204 6.47353 71.6202 6.77353C71.9199 7.07353 72.0895 7.47963 72.0922 7.90388V37.2372C72.0895 37.6615 71.9199 38.0676 71.6202 38.3676C71.3204 38.6676 70.9147 38.8373 70.4908 38.8401H46.8885C46.4646 38.8373 46.0589 38.6676 45.7592 38.3676C45.4595 38.0676 45.2899 37.6615 45.2871 37.2372V7.90388C45.2899 7.47963 45.4595 7.07353 45.7592 6.77353C46.0589 6.47353 46.4646 6.30377 46.8885 6.30103H46.8676ZM140.461 29.6629V24.1944H148.719V20.2448H140.461V15.4258H150.927V11.2353H136.379V33.8639H151.105V29.6734L140.461 29.6629ZM76.4359 22.5286C76.4353 23.3572 76.5054 24.1844 76.6452 25.001C76.7744 25.781 76.9813 26.5461 77.2628 27.2848C77.5493 27.9927 77.8996 28.673 78.3094 29.3172C78.6825 29.9327 79.1174 30.5083 79.6073 31.0353C80.0651 31.5496 80.5736 32.0164 81.125 32.4286C81.6901 32.8405 82.297 33.1917 82.9357 33.4763C83.5826 33.7533 84.2559 33.9639 84.9453 34.1048C86.3536 34.3986 87.8074 34.3986 89.2157 34.1048C89.9021 33.9653 90.5721 33.7547 91.2148 33.4763C91.8591 33.1897 92.4728 32.8387 93.0465 32.4286C93.6185 32.026 94.148 31.5662 94.627 31.0563C95.1177 30.5086 95.5558 29.9158 95.9353 29.2858C96.3233 28.6465 96.6526 27.9732 96.9192 27.2744C97.1993 26.5344 97.4096 25.7698 97.5472 24.9906C97.6787 24.173 97.7452 23.3463 97.746 22.5182C97.7481 21.6891 97.6745 20.8615 97.5262 20.0458C97.3851 19.2662 97.1714 18.5016 96.8878 17.762C96.6234 17.0622 96.294 16.3887 95.9039 15.7506C95.1551 14.5389 94.1732 13.4884 93.0151 12.6601C92.4412 12.2561 91.8316 11.9054 91.1939 11.6125C89.8891 11.032 88.477 10.732 87.0491 10.732C85.6212 10.732 84.2092 11.032 82.9043 11.6125C81.6133 12.1948 80.4554 13.0363 79.5026 14.0848C79.0159 14.6145 78.5812 15.1898 78.2048 15.8029C76.9856 17.8561 76.3487 20.2031 76.3626 22.5915L76.4359 22.5286ZM80.7272 22.4029C80.7272 21.8735 80.7657 21.3448 80.8424 20.821C80.9151 20.3358 81.0343 19.8587 81.1982 19.3963C81.4901 18.5406 81.9411 17.7479 82.5275 17.0601C82.7981 16.74 83.1075 16.4549 83.4486 16.2115C83.7735 15.9614 84.1244 15.7471 84.4952 15.5725C84.9071 15.3916 85.3394 15.2614 85.7826 15.1848C86.224 15.0991 86.6728 15.057 87.1224 15.0591C87.5758 15.0609 88.0279 15.1065 88.4726 15.1953C88.8973 15.2883 89.3112 15.4253 89.7076 15.6039C90.1015 15.7807 90.4737 16.0021 90.8171 16.2639C91.1512 16.5197 91.4597 16.8074 91.7382 17.1229C92.3362 17.8097 92.8012 18.6019 93.1093 19.4591C93.2638 19.9294 93.3725 20.4136 93.4338 20.9048C93.5068 21.4289 93.5418 21.9576 93.5384 22.4867C93.5414 23.002 93.5064 23.5167 93.4338 24.0267C93.3699 24.5073 93.2612 24.9807 93.1093 25.441C92.8145 26.29 92.3676 27.0781 91.7905 27.7667C91.5149 28.0882 91.2062 28.3797 90.8694 28.6363C90.5258 28.8947 90.1535 29.1126 89.76 29.2858C89.3604 29.4657 88.9429 29.6026 88.5144 29.6944C88.0638 29.7914 87.6042 29.8405 87.1433 29.841C86.687 29.8387 86.2317 29.7967 85.7826 29.7153C85.3466 29.6168 84.9222 29.4729 84.5162 29.2858C84.1284 29.1121 83.76 28.8979 83.4172 28.6467C83.0761 28.4033 82.7667 28.1183 82.4961 27.7982C81.9119 27.1128 81.461 26.3239 81.1668 25.4725C81.009 25.0082 80.89 24.5317 80.811 24.0477C80.735 23.5344 80.6966 23.0162 80.6958 22.4972V22.3715L80.7272 22.4029ZM106.894 11.2248V15.4153H113.299V33.8534H117.382V15.4258H123.85V11.2353L106.894 11.2248ZM63.5619 11.2248V26.1429L63.1118 25.4934L62.0652 23.8382C61.8628 23.5169 61.6535 23.1921 61.4372 22.8639L60.7464 21.9525L60.087 20.9048L59.5113 20.0563L53.5453 11.2458H49.6936V33.8744H53.786V18.8725L54.1733 19.4906L54.6024 20.161L55.1676 21.0096C55.5863 21.6277 56.0259 22.2982 56.4969 23.042C56.9679 23.7858 57.4389 24.4982 57.9099 25.1372L63.8026 33.8744H67.6544L67.7172 11.2458H63.6247L63.5619 11.2248Z"
-                fill="#313C4E"
-              />
-            </svg>
-            <div class="flex justify-center text-center">
-              <h1
-                class="text-ui-black font-bold text-xl lg:text-lgx xl:text-2xl"
+          <nav class="lg:min-w-[183px] xl:min-w-[283px]">
+            <ul class="flex flex-row">
+              <li
+                class="text-ui-black xl:mr-8 mr-6 hover:text-ui-orange active:text-ui-orange transition ease-in-out text-base"
               >
-                <strong class="text-ui-blue">All-in-one</strong> worldwide
-                IP&nbsp;platform
-              </h1>
-            </div>
+                <a href="#" aria-label="Services">Services</a>
+              </li>
+              <li
+                class="text-ui-black text-base xl:mr-8 mr-6 hover:text-ui-orange active:text-ui-orange transition ease-in-out"
+              >
+                <a href="#" aria-label="Company">Company</a>
+              </li>
+              <li
+                class="text-ui-black text-base xl:mr-8 mr-6 hover:text-ui-orange active:text-ui-orange transition ease-in-out"
+              >
+                <a href="#" aria-label="Blog">Blog</a>
+              </li>
+              <li
+                class="text-ui-black text-base hover:text-ui-orange active:text-ui-orange transition ease-in-out"
+              >
+                <a href="#" aria-label="Help">Help</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div
+          class="hidden ellipses lg:flex flex-col items-center justify-center absolute z-[-1] w-screen h-screen overflow-hidden"
+        >
+          <svg
+            class="w-full h-full"
+            width="1236"
+            height="750"
+            viewBox="0 0 1236 750"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <circle cx="618" cy="375" r="207.5" stroke="#E6E8ED" />
+            <circle cx="618" cy="375" r="336.5" stroke="#E6E8ED" />
+            <circle cx="618" cy="375" r="472.5" stroke="#E6E8ED" />
+            <circle cx="618" cy="375" r="617.5" stroke="#E6E8ED" />
+          </svg>
+        </div>
+        <div id="scene">
+          <div
+            class="mx-auto mt-24 wrapper flex flex-col items-center lg:mt-0 lg:mx-0 lg:h-screen lg:w-screen lg:justify-center 2xl:scale-125 2k:scale-[1.4] 3k:scale-[2] 4k:scale-[2.7]"
+          >
             <div
-              class="mt-[18px] flex flex-row items-center text-sm text-ui-gray lg:mt-9"
+              class="main-header flex flex-col items-center transition-opacity ease-in duration-500 p-layer"
+              data-depth="0.01"
             >
               <svg
-                class="mr-2"
-                width="19"
-                height="19"
-                viewBox="0 0 19 19"
+                class="mb-5 hidden lg:block"
+                width="158"
+                height="45"
+                viewBox="0 0 158 45"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  d="M8.59749 1.89136C8.95972 1.13224 10.0403 1.13224 10.4025 1.89137L12.0024 5.24419C12.1482 5.5497 12.4386 5.76072 12.7742 5.80496L16.4574 6.29046C17.2913 6.40038 17.6252 7.42806 17.0151 8.00715L14.3208 10.5648C14.0753 10.7979 13.9644 11.1393 14.026 11.4721L14.7024 15.125C14.8555 15.9521 13.9813 16.5872 13.2421 16.186L9.97701 14.4139C9.6795 14.2524 9.3205 14.2524 9.02298 14.4139L5.7579 16.186C5.01865 16.5872 4.14446 15.9521 4.29761 15.125L4.97401 11.4721C5.03565 11.1393 4.92471 10.7979 4.6792 10.5648L1.98487 8.00714C1.37483 7.42806 1.70875 6.40038 2.54265 6.29046L6.22577 5.80496C6.56138 5.76072 6.85182 5.5497 6.9976 5.24419L8.59749 1.89136Z"
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M2.77085 4.69819L37.8447 1.0001C38.3649 0.947303 38.8848 1.10281 39.2908 1.43261C39.6968 1.76241 39.9558 2.23969 40.0112 2.7601L43.706 37.8763C43.7587 38.397 43.6034 38.9174 43.2739 39.3238C42.9444 39.7301 42.4675 39.9894 41.9476 40.0449L6.87378 43.743C6.35242 43.7959 5.83127 43.6407 5.42361 43.3111C5.01594 42.9815 4.75472 42.5042 4.69671 41.983L1.00198 6.87724C0.949251 6.35378 1.10572 5.83071 1.43718 5.42238C1.76865 5.01406 2.24814 4.75369 2.77085 4.69819Z"
+                  fill="#313C4E"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M6.52778 8.95143L32.0141 3.9962C32.8468 3.83633 33.7088 4.01342 34.4112 4.48866C35.1136 4.9639 35.599 5.6985 35.7612 6.53144L40.7747 32.041C40.9344 32.8744 40.7575 33.7371 40.2827 34.4402C39.8079 35.1432 39.074 35.6291 38.2418 35.7914L12.7031 40.8095C11.8692 40.9696 11.0059 40.7928 10.3018 40.3178C9.59776 39.8427 9.11016 39.108 8.94558 38.2743L3.99485 12.7124C3.91424 12.299 3.91582 11.8737 3.99952 11.4609C4.08321 11.048 4.24736 10.6558 4.4826 10.3065C4.71783 9.95722 5.01953 9.65776 5.37046 9.42525C5.72139 9.19274 6.11465 9.03174 6.52778 8.95143V8.95143Z"
                   fill="#F0A93B"
                 />
+                <path
+                  d="M23.3784 22.696V15.6037H26.2568C26.8648 15.5928 27.4713 15.6705 28.057 15.8341C28.5552 15.9665 29.0216 16.1981 29.4282 16.5151C29.812 16.8075 30.1147 17.1934 30.3074 17.636C30.5031 18.1108 30.5992 18.6207 30.59 19.1341C30.6143 19.6292 30.5273 20.1235 30.3352 20.5804C30.1432 21.0374 29.8511 21.4453 29.4805 21.7741C29.0842 22.1102 28.6201 22.3568 28.1198 22.497C27.5151 22.6549 26.8922 22.7324 26.2672 22.7275L23.3784 22.696ZM18.6894 11.2456V33.8741H23.3784V27.117H26.3614C27.0368 27.1192 27.7116 27.0772 28.3815 26.9913C28.9883 26.9042 29.5869 26.7676 30.1713 26.5827C30.7067 26.4061 31.2251 26.1817 31.7204 25.9122C32.1813 25.6643 32.6131 25.3656 33.0078 25.0218C33.7931 24.3441 34.4065 23.4896 34.7976 22.5284C35.2199 21.4586 35.4262 20.3157 35.4046 19.1656C35.4262 18.0155 35.2199 16.8725 34.7976 15.8027C34.6052 15.3218 34.3519 14.8676 34.044 14.4513C33.737 14.0437 33.386 13.6713 32.9973 13.3408C32.6053 12.9936 32.173 12.6946 31.7099 12.4503C31.2155 12.1792 30.6969 11.9548 30.1608 11.7799C29.5764 11.595 28.9778 11.4583 28.371 11.3713C27.7011 11.2854 27.0263 11.2434 26.351 11.2456H18.6894ZM15.7796 33.8741V17.8141H11.0906V33.8741H15.7796ZM15.7796 15.9389V11.2456H11.0906V15.9389H15.7796Z"
+                  fill="#313C4E"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M131.962 6.30103H155.564C155.988 6.30377 156.394 6.47353 156.693 6.77353C156.993 7.07353 157.163 7.47963 157.165 7.90388V37.2372C157.163 37.6615 156.993 38.0676 156.693 38.3676C156.394 38.6676 155.988 38.8373 155.564 38.8401H131.962C131.538 38.8373 131.132 38.6676 130.832 38.3676C130.533 38.0676 130.363 37.6615 130.36 37.2372V7.90388C130.363 7.47963 130.533 7.07353 130.832 6.77353C131.132 6.47353 131.538 6.30377 131.962 6.30103ZM75.2427 6.30103H98.8555C99.2766 6.30654 99.6786 6.47784 99.9744 6.77784C100.27 7.07783 100.436 7.48238 100.436 7.90388V37.2372C100.436 37.6605 100.269 38.0666 99.9706 38.3669C99.6726 38.6672 99.2679 38.8373 98.845 38.8401H75.2427C74.8188 38.8373 74.4131 38.6676 74.1134 38.3676C73.8136 38.0676 73.6441 37.6615 73.6413 37.2372V7.90388C73.6441 7.47963 73.8136 7.07353 74.1134 6.77353C74.4131 6.47353 74.8188 6.30377 75.2427 6.30103ZM103.576 6.30103H127.189C127.613 6.30377 128.018 6.47353 128.318 6.77353C128.618 7.07353 128.787 7.47963 128.79 7.90388V37.2372C128.787 37.6615 128.618 38.0676 128.318 38.3676C128.018 38.6676 127.613 38.8373 127.189 38.8401H103.576C103.153 38.8373 102.748 38.6672 102.45 38.3669C102.152 38.0666 101.985 37.6605 101.985 37.2372V7.90388C101.985 7.48059 102.152 7.07447 102.45 6.77418C102.748 6.47388 103.153 6.30379 103.576 6.30103ZM46.8676 6.30103H70.4908C70.9147 6.30377 71.3204 6.47353 71.6202 6.77353C71.9199 7.07353 72.0895 7.47963 72.0922 7.90388V37.2372C72.0895 37.6615 71.9199 38.0676 71.6202 38.3676C71.3204 38.6676 70.9147 38.8373 70.4908 38.8401H46.8885C46.4646 38.8373 46.0589 38.6676 45.7592 38.3676C45.4595 38.0676 45.2899 37.6615 45.2871 37.2372V7.90388C45.2899 7.47963 45.4595 7.07353 45.7592 6.77353C46.0589 6.47353 46.4646 6.30377 46.8885 6.30103H46.8676ZM140.461 29.6629V24.1944H148.719V20.2448H140.461V15.4258H150.927V11.2353H136.379V33.8639H151.105V29.6734L140.461 29.6629ZM76.4359 22.5286C76.4353 23.3572 76.5054 24.1844 76.6452 25.001C76.7744 25.781 76.9813 26.5461 77.2628 27.2848C77.5493 27.9927 77.8996 28.673 78.3094 29.3172C78.6825 29.9327 79.1174 30.5083 79.6073 31.0353C80.0651 31.5496 80.5736 32.0164 81.125 32.4286C81.6901 32.8405 82.297 33.1917 82.9357 33.4763C83.5826 33.7533 84.2559 33.9639 84.9453 34.1048C86.3536 34.3986 87.8074 34.3986 89.2157 34.1048C89.9021 33.9653 90.5721 33.7547 91.2148 33.4763C91.8591 33.1897 92.4728 32.8387 93.0465 32.4286C93.6185 32.026 94.148 31.5662 94.627 31.0563C95.1177 30.5086 95.5558 29.9158 95.9353 29.2858C96.3233 28.6465 96.6526 27.9732 96.9192 27.2744C97.1993 26.5344 97.4096 25.7698 97.5472 24.9906C97.6787 24.173 97.7452 23.3463 97.746 22.5182C97.7481 21.6891 97.6745 20.8615 97.5262 20.0458C97.3851 19.2662 97.1714 18.5016 96.8878 17.762C96.6234 17.0622 96.294 16.3887 95.9039 15.7506C95.1551 14.5389 94.1732 13.4884 93.0151 12.6601C92.4412 12.2561 91.8316 11.9054 91.1939 11.6125C89.8891 11.032 88.477 10.732 87.0491 10.732C85.6212 10.732 84.2092 11.032 82.9043 11.6125C81.6133 12.1948 80.4554 13.0363 79.5026 14.0848C79.0159 14.6145 78.5812 15.1898 78.2048 15.8029C76.9856 17.8561 76.3487 20.2031 76.3626 22.5915L76.4359 22.5286ZM80.7272 22.4029C80.7272 21.8735 80.7657 21.3448 80.8424 20.821C80.9151 20.3358 81.0343 19.8587 81.1982 19.3963C81.4901 18.5406 81.9411 17.7479 82.5275 17.0601C82.7981 16.74 83.1075 16.4549 83.4486 16.2115C83.7735 15.9614 84.1244 15.7471 84.4952 15.5725C84.9071 15.3916 85.3394 15.2614 85.7826 15.1848C86.224 15.0991 86.6728 15.057 87.1224 15.0591C87.5758 15.0609 88.0279 15.1065 88.4726 15.1953C88.8973 15.2883 89.3112 15.4253 89.7076 15.6039C90.1015 15.7807 90.4737 16.0021 90.8171 16.2639C91.1512 16.5197 91.4597 16.8074 91.7382 17.1229C92.3362 17.8097 92.8012 18.6019 93.1093 19.4591C93.2638 19.9294 93.3725 20.4136 93.4338 20.9048C93.5068 21.4289 93.5418 21.9576 93.5384 22.4867C93.5414 23.002 93.5064 23.5167 93.4338 24.0267C93.3699 24.5073 93.2612 24.9807 93.1093 25.441C92.8145 26.29 92.3676 27.0781 91.7905 27.7667C91.5149 28.0882 91.2062 28.3797 90.8694 28.6363C90.5258 28.8947 90.1535 29.1126 89.76 29.2858C89.3604 29.4657 88.9429 29.6026 88.5144 29.6944C88.0638 29.7914 87.6042 29.8405 87.1433 29.841C86.687 29.8387 86.2317 29.7967 85.7826 29.7153C85.3466 29.6168 84.9222 29.4729 84.5162 29.2858C84.1284 29.1121 83.76 28.8979 83.4172 28.6467C83.0761 28.4033 82.7667 28.1183 82.4961 27.7982C81.9119 27.1128 81.461 26.3239 81.1668 25.4725C81.009 25.0082 80.89 24.5317 80.811 24.0477C80.735 23.5344 80.6966 23.0162 80.6958 22.4972V22.3715L80.7272 22.4029ZM106.894 11.2248V15.4153H113.299V33.8534H117.382V15.4258H123.85V11.2353L106.894 11.2248ZM63.5619 11.2248V26.1429L63.1118 25.4934L62.0652 23.8382C61.8628 23.5169 61.6535 23.1921 61.4372 22.8639L60.7464 21.9525L60.087 20.9048L59.5113 20.0563L53.5453 11.2458H49.6936V33.8744H53.786V18.8725L54.1733 19.4906L54.6024 20.161L55.1676 21.0096C55.5863 21.6277 56.0259 22.2982 56.4969 23.042C56.9679 23.7858 57.4389 24.4982 57.9099 25.1372L63.8026 33.8744H67.6544L67.7172 11.2458H63.6247L63.5619 11.2248Z"
+                  fill="#313C4E"
+                />
               </svg>
-              100% positive feedback on&nbsp;<a
-                href="https://www.trustpilot.com/review/ipnote.pro"
-                class="text-ui-blue underline"
-                >Trustpilot</a
+              <div class="flex justify-center text-center">
+                <h1
+                  class="text-ui-black font-bold text-xl lg:text-lgx xl:text-2xl"
+                >
+                  <strong class="text-ui-blue">All-in-one</strong> worldwide
+                  IP&nbsp;platform
+                </h1>
+              </div>
+              <div
+                class="mt-[18px] flex flex-row items-center text-sm text-ui-gray lg:mt-9"
               >
-            </div>
-          </div>
-        </div>
-        <div
-          class="cards mt-9 wrapper mx-auto tb:grid gap-2 tb:grid-cols-2 lg:hidden"
-        >
-          <div
-            class="card card-big mb-4 smx:min-h-[335px] md:min-h-[320px] mdx:min-h-[295px] tb:mb-0 tb:min-h-[350px] tbx:min-h-[320px]"
-          >
-            <div
-              class="card-inner min-h-[300px] min-w-[90%] smx:min-w-[90%] smx:min-h-[295px] md:min-h-[270px] mdx:min-h-[250px] tb:min-h-[320px] tbx:min-h-[290px]"
-            ></div>
-            <div class="card-content">
-              <div class="card-front">
-                <h4 class="text-md font-bold">
-                  <span class="text-ui-black">AI </span>
-                  <div
-                    class="text-ui-blue px-1 py-0.5 inline-block rounded bg-white"
-                  >
-                    Assistant
-                  </div>
-                </h4>
-                <div
-                  class="mt-3 text-ui-gray text-base max-w-[224px] smx:max-w-[90%] smx:text-md"
+                <svg
+                  class="mr-2"
+                  width="19"
+                  height="19"
+                  viewBox="0 0 19 19"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
                 >
-                  Get IP strategy, review costs, speed up tasks
-                </div>
-              </div>
-              <div
-                class="divider mt-7 min-w-[224px] max smx:max-w-[90%] md:max-w-[80%] border border-white lg:hidden"
-              ></div>
-              <div class="card-back">
-                <div
-                  class="mt-4 text-smm text-ui-gray max-w-[224px] smx:max-w-[90%] smx:text-base tg"
+                  <path
+                    d="M8.59749 1.89136C8.95972 1.13224 10.0403 1.13224 10.4025 1.89137L12.0024 5.24419C12.1482 5.5497 12.4386 5.76072 12.7742 5.80496L16.4574 6.29046C17.2913 6.40038 17.6252 7.42806 17.0151 8.00715L14.3208 10.5648C14.0753 10.7979 13.9644 11.1393 14.026 11.4721L14.7024 15.125C14.8555 15.9521 13.9813 16.5872 13.2421 16.186L9.97701 14.4139C9.6795 14.2524 9.3205 14.2524 9.02298 14.4139L5.7579 16.186C5.01865 16.5872 4.14446 15.9521 4.29761 15.125L4.97401 11.4721C5.03565 11.1393 4.92471 10.7979 4.6792 10.5648L1.98487 8.00714C1.37483 7.42806 1.70875 6.40038 2.54265 6.29046L6.22577 5.80496C6.56138 5.76072 6.85182 5.5497 6.9976 5.24419L8.59749 1.89136Z"
+                    fill="#F0A93B"
+                  />
+                </svg>
+                100% positive feedback on&nbsp;<a
+                  href="https://www.trustpilot.com/review/ipnote.pro"
+                  class="text-ui-blue underline"
+                  >Trustpilot</a
                 >
-                  Have a quick chat with our AI&#8209;powered IP assistant
-                  to&nbsp;get IP&nbsp;strategy and&nbsp;send tasks
-                  for&nbsp;attorneys
-                </div>
-                <a href="#" class="block link mt-4 max-w-fit lg:hidden">
-                  <svg
-                    width="40"
-                    height="40"
-                    viewBox="0 0 40 40"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <rect width="40" height="40" rx="20" fill="#F0A93B" />
-                    <path
-                      d="M9 19C8.44772 19 8 19.4477 8 20C8 20.5523 8.44772 21 9 21V19ZM31.7071 20.7071C32.0976 20.3166 32.0976 19.6834 31.7071 19.2929L25.3431 12.9289C24.9526 12.5384 24.3195 12.5384 23.9289 12.9289C23.5384 13.3195 23.5384 13.9526 23.9289 14.3431L29.5858 20L23.9289 25.6569C23.5384 26.0474 23.5384 26.6805 23.9289 27.0711C24.3195 27.4616 24.9526 27.4616 25.3431 27.0711L31.7071 20.7071ZM9 21H31V19H9V21Z"
-                      fill="white"
-                    />
-                  </svg>
-                </a>
               </div>
             </div>
           </div>
           <div
-            class="card card-big mb-4 smx:min-h-[340px] mdx:min-h-[320px] tb:mb-0 tbx:min-h-[320px] lg:rotate-[6.11deg] lg:min-w-[224px] lg:max-w-[224px] lg:max-h-[224px] lg:min-h-[224px]"
+            class="cards mt-9 wrapper mx-auto tb:grid gap-2 tb:grid-cols-2 lg:hidden"
           >
             <div
-              class="card-inner min-h-[300px] min-w-[90%] smx:min-w-[90%] smx:min-h-[295px] mdx:min-h-[275px] tb:min-h-[320px] tbx:min-h-[290px] lg:rotate-[8.65deg] lg:max-w-[186px] lg:max-h-[186px]"
-            ></div>
-            <div
-              class="card-content absolute top-[11%] left-[12%] lg:top-[73px] lg:left-[60px] lg:rotate-[-6.11deg]"
-            >
-              <div class="card-front">
-                <h4 class="text-md font-bold">
-                  <span class="text-ui-black">Attorney’s </span>
-                  <div
-                    class="text-ui-blue px-1 py-0.5 inline-block rounded bg-white"
-                  >
-                    Marketplace
-                  </div>
-                </h4>
-                <div
-                  class="mt-3 text-ui-gray text-base max-w-[224px] smx:max-w-[90%] smx:text-md"
-                >
-                  Find and&nbsp;choose reliable attorneys to&nbsp;obtain any IP
-                  services worldwide
-                </div>
-              </div>
-              <div
-                class="divider mt-7 min-w-[224px] max smx:max-w-[90%] md:max-w-[80%] border border-white lg:hidden"
-              ></div>
-              <div class="card-back">
-                <div
-                  class="mt-4 text-smm text-ui-gray max-w-[224px] smx:max-w-[90%] smx:text-base"
-                >
-                  Find trustworthy local IP attorneys from&nbsp;150+ countries
-                  that align with&nbsp;your objectives and&nbsp;criteria
-                </div>
-                <a href="#" class="block link mt-4 max-w-fit lg:hidden">
-                  <svg
-                    width="40"
-                    height="40"
-                    viewBox="0 0 40 40"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <rect width="40" height="40" rx="20" fill="#F0A93B" />
-                    <path
-                      d="M9 19C8.44772 19 8 19.4477 8 20C8 20.5523 8.44772 21 9 21V19ZM31.7071 20.7071C32.0976 20.3166 32.0976 19.6834 31.7071 19.2929L25.3431 12.9289C24.9526 12.5384 24.3195 12.5384 23.9289 12.9289C23.5384 13.3195 23.5384 13.9526 23.9289 14.3431L29.5858 20L23.9289 25.6569C23.5384 26.0474 23.5384 26.6805 23.9289 27.0711C24.3195 27.4616 24.9526 27.4616 25.3431 27.0711L31.7071 20.7071ZM9 21H31V19H9V21Z"
-                      fill="white"
-                    />
-                  </svg>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-            class="card card-small mb-4 smx:min-h-[340px] mdx:min-h-[320px] tb:mb-0 tb:min-h-[350px] tbx:min-h-[320px] lg:rotate-[6.11deg] lg:min-w-[224px] lg:max-w-[224px] lg:max-h-[224px] lg:min-h-[224px]"
-          >
-            <div
-              class="card-inner min-h-[278px] min-w-[90%] smx:min-w-[90%] smx:min-h-[295px] mdx:min-h-[275px] tb:min-h-[320px] tbx:min-h-[290px] lg:rotate-[8.65deg] lg:max-w-[186px] lg:max-h-[186px]"
-            ></div>
-            <div
-              class="card-content absolute top-[11%] left-[12%] lg:top-[73px] lg:left-[60px] lg:rotate-[-6.11deg]"
-            >
-              <div class="card-front">
-                <h4 class="text-md font-bold">
-                  <span class="text-ui-black">For </span>
-                  <div
-                    class="text-ui-blue px-1 py-0.5 inline-block rounded bg-white"
-                  >
-                    Tech Companies
-                  </div>
-                </h4>
-                <div
-                  class="mt-3 text-ui-gray text-base max-w-[224px] smx:max-w-[90%] smx:text-md"
-                >
-                  Manage your IP portfolio and&nbsp;reduce costs in&nbsp;a half
-                </div>
-              </div>
-              <div
-                class="divider mt-7 min-w-[224px] max smx:max-w-[90%] md:max-w-[80%] border border-white lg:hidden"
-              ></div>
-              <a href="#" class="card-back">
-                <div
-                  class="mt-4 text-smm text-ui-gray max-w-[224px] smx:max-w-[90%] smx:text-base"
-                >
-                  Control and analyse all your IP rights, work with&nbsp;local
-                  IP attorneys, and&nbsp;save your time and&nbsp;money
-                </div>
-                <a href="#" class="link block mt-4 max-w-fit lg:hidden">
-                  <svg
-                    width="40"
-                    height="40"
-                    viewBox="0 0 40 40"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <rect width="40" height="40" rx="20" fill="#F0A93B" />
-                    <path
-                      d="M9 19C8.44772 19 8 19.4477 8 20C8 20.5523 8.44772 21 9 21V19ZM31.7071 20.7071C32.0976 20.3166 32.0976 19.6834 31.7071 19.2929L25.3431 12.9289C24.9526 12.5384 24.3195 12.5384 23.9289 12.9289C23.5384 13.3195 23.5384 13.9526 23.9289 14.3431L29.5858 20L23.9289 25.6569C23.5384 26.0474 23.5384 26.6805 23.9289 27.0711C24.3195 27.4616 24.9526 27.4616 25.3431 27.0711L31.7071 20.7071ZM9 21H31V19H9V21Z"
-                      fill="white"
-                    />
-                  </svg>
-                </a>
-              </a>
-            </div>
-          </div>
-          <div
-            class="card card-small mb-4 smx:min-h-[340px] mdx:min-h-[320px] tb:mb-0 tb:min-h-[350px] tbx:min-h-[320px] lg:rotate-[6.11deg] lg:min-w-[224px] lg:max-w-[224px] lg:max-h-[224px] lg:min-h-[224px]"
-          >
-            <div
-              class="card-inner min-h-[278px] min-w-[90%] smx:min-w-[90%] smx:min-h-[295px] mdx:min-h-[275px] tb:min-h-[320px] tbx:min-h-[290px] lg:rotate-[8.65deg] lg:max-w-[186px] lg:max-h-[186px]"
-            ></div>
-            <div
-              class="card-content absolute top-[11%] left-[12%] lg:top-[73px] lg:left-[60px] lg:rotate-[-6.11deg]"
-            >
-              <div class="card-front">
-                <h4 class="text-md font-bold">
-                  <span class="text-ui-black">For </span>
-                  <div
-                    class="text-ui-blue px-1 py-0.5 inline-block rounded bg-white"
-                  >
-                    Attorneys
-                  </div>
-                </h4>
-                <div
-                  class="mt-3 text-ui-gray text-base max-w-[224px] smx:max-w-[90%] smx:text-md"
-                >
-                  Promote your profile, attract new clients, and&nbsp;earn more
-                </div>
-              </div>
-              <div
-                class="divider mt-7 min-w-[224px] max smx:max-w-[90%] md:max-w-[80%] border border-white lg:hidden"
-              ></div>
-              <div class="card-back">
-                <div
-                  class="mt-4 text-smm text-ui-gray max-w-[224px] smx:max-w-[90%] smx:text-base"
-                >
-                  Promote your services on&nbsp;our marketplace and&nbsp;get
-                  more orders through its improved functionality
-                </div>
-                <a href="#" class="link block mt-4 lg:hidden max-w-fit">
-                  <svg
-                    width="40"
-                    height="40"
-                    viewBox="0 0 40 40"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <rect width="40" height="40" rx="20" fill="#F0A93B" />
-                    <path
-                      d="M9 19C8.44772 19 8 19.4477 8 20C8 20.5523 8.44772 21 9 21V19ZM31.7071 20.7071C32.0976 20.3166 32.0976 19.6834 31.7071 19.2929L25.3431 12.9289C24.9526 12.5384 24.3195 12.5384 23.9289 12.9289C23.5384 13.3195 23.5384 13.9526 23.9289 14.3431L29.5858 20L23.9289 25.6569C23.5384 26.0474 23.5384 26.6805 23.9289 27.0711C24.3195 27.4616 24.9526 27.4616 25.3431 27.0711L31.7071 20.7071ZM9 21H31V19H9V21Z"
-                      fill="white"
-                    />
-                  </svg>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-            class="card card-big mb-4 smx:min-h-max mdx:min-h-[320px] tb:mb-0 tb:min-h-[350px] tbx:min-h-[320px]"
-          >
-            <div
-              class="card-inner min-h-[300px] min-w-[90%] smx:min-w-[90%] smx:min-h-[295px] mdx:min-h-[275px] tb:min-h-[320px] tbx:min-h-[290px] lg:rotate-[8.65deg] lg:max-w-[186px] lg:max-h-[186px]"
-            ></div>
-            <div
-              class="card-content absolute top-[11%] left-[12%] lg:top-[73px] lg:left-[60px] lg:rotate-[-6.11deg]"
-            >
-              <div class="card-front">
-                <h4 class="text-md font-bold">
-                  <span class="text-ui-black">IPMS for</span>
-                  <div
-                    class="text-ui-blue px-1 py-0.5 inline-block rounded bg-white"
-                  >
-                    Law Firms
-                  </div>
-                </h4>
-                <div
-                  class="mt-3 text-ui-gray text-base max-w-[224px] smx:max-w-[90%] smx:text-md"
-                >
-                  Optimise daily work, make clients happy and&nbsp;increase
-                  sales
-                </div>
-              </div>
-              <div
-                class="divider mt-7 min-w-[224px] max smx:max-w-[90%] md:max-w-[80%] border border-white lg:hidden"
-              ></div>
-              <div class="card-back">
-                <div
-                  class="mt-4 text-smm text-ui-gray max-w-[224px] smx:max-w-[90%] smx:text-base"
-                >
-                  Keep all your IP-work in&nbsp;one place, optimise routine,
-                  automate sales and&nbsp;earn more
-                </div>
-                <a href="#" class="block mt-4 lg:hidden max-w-fit link">
-                  <svg
-                    width="40"
-                    height="40"
-                    viewBox="0 0 40 40"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <rect width="40" height="40" rx="20" fill="#F0A93B" />
-                    <path
-                      d="M9 19C8.44772 19 8 19.4477 8 20C8 20.5523 8.44772 21 9 21V19ZM31.7071 20.7071C32.0976 20.3166 32.0976 19.6834 31.7071 19.2929L25.3431 12.9289C24.9526 12.5384 24.3195 12.5384 23.9289 12.9289C23.5384 13.3195 23.5384 13.9526 23.9289 14.3431L29.5858 20L23.9289 25.6569C23.5384 26.0474 23.5384 26.6805 23.9289 27.0711C24.3195 27.4616 24.9526 27.4616 25.3431 27.0711L31.7071 20.7071ZM9 21H31V19H9V21Z"
-                      fill="white"
-                    />
-                  </svg>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          class="cards flip-cards hidden lg:block absolute w-screen h-screen top-0 left-0 overflow-visible p-layer"
-          data-depth="0.6"
-        >
-          <div
-            class="flip-card rotate-[6.11deg] origin-top-left absolute top-[12%] left-[4%] min-w-fit min-h-fit 2xl:scale-[1.25] 2k:scale-[1.4] 4k:scale-[3]"
-            data-card="1"
-          >
-            <div
-              class="flip-card-inner min-h-[204px] min-w-[204px] xl:min-w-[224px] xl:min-h-[224px]"
+              class="card card-big mb-4 smx:pt-[6px] mx:pt-[10px] smx:min-h-[315px] md:min-h-[310px] mdx:min-h-[305px] mdx:pt-[10px] tb:mb-0 tb:min-h-[350px] tbx:min-h-[320px]"
             >
               <div
-                class="flip-card-front rotate-[2.54deg] lg:min-w-[166px] min-h-[166px] xl:min-w-[186px] xl:min-h-[186px]"
+                class="card-inner min-h-[300px] min-w-[90%] smx:min-w-[90%] smx:min-h-[275px] md:min-h-[260px] mdx:min-h-[250px] tb:min-h-[320px] tbx:min-h-[290px]"
+              ></div>
+              <div
+                class="card-content absolute top-[12%] left-[12%] mx:top-[11%] md:top-[12%] mdx:top-[16%]"
               >
-                <div
-                  class="rotate-[-8.65deg] absolute left-[18%] max-w-[134px] 2xl:max-w-full"
-                >
-                  <h4 class="xl:text-md font-bold lg:text-base">
+                <div class="card-front">
+                  <h4 class="text-md font-bold">
                     <span class="text-ui-black">AI </span>
                     <div
                       class="text-ui-blue px-1 py-0.5 inline-block rounded bg-white"
@@ -543,124 +276,49 @@
                     </div>
                   </h4>
                   <div
-                    class="mt-3 text-ui-gray max-w-[184px] xl:max-w-[224px] text-smm xl:text-base"
+                    class="mt-3 text-ui-gray text-base max-w-[224px] smx:max-w-[90%] smx:text-md"
                   >
-                    Get IP strategy, review costs, speed&nbsp;up tasks
+                    Get IP strategy, review costs, speed up tasks
                   </div>
                 </div>
-              </div>
-              <a href="#" aria-label="AI assistant"
-                ><div
-                  class="flip-card-back flex flex-col items-center justify-center bg-ui-black rotate-[2.54deg] rounded-2xl min-w-[186px] min-h-[186px] max-h-[186px] max-w-[186px]"
-                >
-                  <div
-                    class="rotate-[-8.65deg] absolute left-[11%] top-[14%] max-w-[158px]"
-                  >
-                    <div class="lg:text-smm xl:text-base text-white">
-                      Have a quick chat with our AI&#8209;powered IP assistant
-                      to&nbsp;get IP strategy and&nbsp;send tasks
-                      for&nbsp;attorneys
-                    </div>
-                    <a
-                      href="#"
-                      class="block link mt-2 max-w-fit relative left-[70%]"
-                    >
-                      <svg
-                        width="40"
-                        height="40"
-                        viewBox="0 0 40 40"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <rect width="40" height="40" rx="20" fill="#F0A93B" />
-                        <path
-                          d="M9 19.5C8.72386 19.5 8.5 19.7239 8.5 20C8.5 20.2761 8.72386 20.5 9 20.5V19.5ZM31.3536 20.3536C31.5488 20.1583 31.5488 19.8417 31.3536 19.6464L28.1716 16.4645C27.9763 16.2692 27.6597 16.2692 27.4645 16.4645C27.2692 16.6597 27.2692 16.9763 27.4645 17.1716L30.2929 20L27.4645 22.8284C27.2692 23.0237 27.2692 23.3403 27.4645 23.5355C27.6597 23.7308 27.9763 23.7308 28.1716 23.5355L31.3536 20.3536ZM9 20.5H31V19.5H9V20.5Z"
-                          fill="white"
-                        />
-                      </svg>
-                    </a>
-                  </div></div
-              ></a>
-            </div>
-          </div>
-          <div
-            class="flip-card rotate-[-6.068deg] origin-top-left absolute top-[-8%] left-[38%] xl:left-[38%] 2xl:scale-[1.25] 2k:scale-[1.4] 4k:scale-[3]"
-            data-card="2"
-          >
-            <div
-              class="flip-card-inner min-w-[246px] min-h-[246px] xl:min-w-[286px] xl:min-h-[286px]"
-            >
-              <div
-                class="flip-card-front rotate-[2.56deg] min-h-[205px] min-w-[205px] xl:min-w-[245px] xl:min-h-[245px]"
-              >
                 <div
-                  class="rotate-[3.5deg] absolute left-[10%] xl:left-[11%] max-w-[207px]"
-                >
-                  <h4 class="xl:text-md font-bold lg:text-base">
-                    <span class="text-ui-black">For </span>
-                    <div
-                      class="text-ui-blue px-1 py-0.5 inline-block rounded bg-white"
-                    >
-                      Tech Companies
-                    </div>
-                  </h4>
+                  class="divider min-w-[224px] smx:max-w-[90%] md:max-w-[89%] mdx:max-w-[80%] lg:hidden"
+                ></div>
+                <div class="card-back">
                   <div
-                    class="mt-3 text-ui-gray xl:max-w-[224px] text-smm xl:text-base"
+                    class="mt-4 text-smm text-ui-gray max-w-[224px] smx:max-w-[90%] smx:text-base tg"
                   >
-                    Manage your IP portfolio and&nbsp;reduce costs in&nbsp;a
-                    half
+                    Have a quick chat with our AI&#8209;powered IP assistant
+                    to&nbsp;get IP&nbsp;strategy and&nbsp;send tasks
+                    for&nbsp;attorneys
                   </div>
+                  <a href="#" class="block link mt-4 max-w-fit lg:hidden">
+                    <svg
+                      width="40"
+                      height="40"
+                      viewBox="0 0 40 40"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect width="40" height="40" rx="20" fill="#F0A93B" />
+                      <path
+                        d="M9 19C8.44772 19 8 19.4477 8 20C8 20.5523 8.44772 21 9 21V19ZM31.7071 20.7071C32.0976 20.3166 32.0976 19.6834 31.7071 19.2929L25.3431 12.9289C24.9526 12.5384 24.3195 12.5384 23.9289 12.9289C23.5384 13.3195 23.5384 13.9526 23.9289 14.3431L29.5858 20L23.9289 25.6569C23.5384 26.0474 23.5384 26.6805 23.9289 27.0711C24.3195 27.4616 24.9526 27.4616 25.3431 27.0711L31.7071 20.7071ZM9 21H31V19H9V21Z"
+                        fill="white"
+                      />
+                    </svg>
+                  </a>
                 </div>
               </div>
-              <a href="#" aria-label="For Tech Companies"
-                ><div
-                  class="flip-card-back flex flex-col items-center justify-center bg-ui-black rotate-[2.54deg] rounded-2xl min-w-[245px] min-h-[245px] max-h-[245px] max-w-[245px]"
-                >
-                  <div
-                    class="rotate-[3.52deg] absolute left-[11%] top-[23%] max-w-[180px]"
-                  >
-                    <div class="text-base text-white">
-                      Control and analyse all your IP rights, work
-                      with&nbsp;local IP attorneys, and save your time and money
-                    </div>
-                    <a
-                      href="#"
-                      class="block link mt-[18px] max-w-fit relative left-[92%]"
-                    >
-                      <svg
-                        width="40"
-                        height="40"
-                        viewBox="0 0 40 40"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <rect width="40" height="40" rx="20" fill="#F0A93B" />
-                        <path
-                          d="M9 19.5C8.72386 19.5 8.5 19.7239 8.5 20C8.5 20.2761 8.72386 20.5 9 20.5V19.5ZM31.3536 20.3536C31.5488 20.1583 31.5488 19.8417 31.3536 19.6464L28.1716 16.4645C27.9763 16.2692 27.6597 16.2692 27.4645 16.4645C27.2692 16.6597 27.2692 16.9763 27.4645 17.1716L30.2929 20L27.4645 22.8284C27.2692 23.0237 27.2692 23.3403 27.4645 23.5355C27.6597 23.7308 27.9763 23.7308 28.1716 23.5355L31.3536 20.3536ZM9 20.5H31V19.5H9V20.5Z"
-                          fill="white"
-                        />
-                      </svg>
-                    </a>
-                  </div></div
-              ></a>
             </div>
-          </div>
-          <div
-            class="flip-card card-third rotate-[8.98deg] origin-top-left absolute top-[20%] right-[-4.8%] xl:right-[-3.7%] 2xl:right-[1.1%] 2xl:scale-[1.25] 2k:scale-[1.4] 4k:scale-[3]"
-            data-card="3"
-          >
             <div
-              class="flip-card-inner min-w-[246px] min-h-[246px] xl:min-h-[286px] xl:min-w-[286px]"
+              class="card card-big mb-4 smx:min-h-[340px] mdx:min-h-[320px] tb:mb-0 tbx:min-h-[320px] lg:rotate-[6.11deg] lg:min-w-[224px] lg:max-w-[224px] lg:max-h-[224px] lg:min-h-[224px]"
             >
               <div
-                class="flip-card-front min-w-[205px] min-h-[205px] xl:min-w-[245px] xl:min-h-[245px]"
-              >
-                <div
-                  class="rotate-[-11.53deg] max-w-[215px] left-[6.5%] absolute xl:left-[10%] xl:top-[35%]"
-                >
-                  <h4
-                    class="xl:text-md font-bold lg:text-base whitespace-nowrap"
-                  >
+                class="card-inner min-h-[300px] min-w-[90%] smx:min-w-[90%] smx:min-h-[295px] mdx:min-h-[275px] tb:min-h-[320px] tbx:min-h-[290px] lg:rotate-[8.65deg] lg:max-w-[186px] lg:max-h-[186px]"
+              ></div>
+              <div class="card-content absolute top-[11%] left-[12%]">
+                <div class="card-front">
+                  <h4 class="text-md font-bold">
                     <span class="text-ui-black">Attorney’s </span>
                     <div
                       class="text-ui-blue px-1 py-0.5 inline-block rounded bg-white"
@@ -669,64 +327,104 @@
                     </div>
                   </h4>
                   <div
-                    class="mt-3 text-ui-gray max-w-[210px] text-smm xl:text-base"
+                    class="mt-3 text-ui-gray text-base max-w-[224px] smx:max-w-[90%] smx:text-md"
                   >
-                    Find and choose reliable attorneys to obtain any IP services
-                    worldwide
+                    Find and&nbsp;choose reliable attorneys to&nbsp;obtain any
+                    IP services worldwide
                   </div>
+                </div>
+                <div
+                  class="divider mt-7 min-w-[224px] max smx:max-w-[90%] md:max-w-[80%] border border-white lg:hidden"
+                ></div>
+                <div class="card-back">
+                  <div
+                    class="mt-4 text-smm text-ui-gray max-w-[224px] smx:max-w-[90%] smx:text-base"
+                  >
+                    Find trustworthy local IP attorneys from&nbsp;150+ countries
+                    that align with&nbsp;your objectives and&nbsp;criteria
+                  </div>
+                  <a href="#" class="block link mt-4 max-w-fit lg:hidden">
+                    <svg
+                      width="40"
+                      height="40"
+                      viewBox="0 0 40 40"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect width="40" height="40" rx="20" fill="#F0A93B" />
+                      <path
+                        d="M9 19C8.44772 19 8 19.4477 8 20C8 20.5523 8.44772 21 9 21V19ZM31.7071 20.7071C32.0976 20.3166 32.0976 19.6834 31.7071 19.2929L25.3431 12.9289C24.9526 12.5384 24.3195 12.5384 23.9289 12.9289C23.5384 13.3195 23.5384 13.9526 23.9289 14.3431L29.5858 20L23.9289 25.6569C23.5384 26.0474 23.5384 26.6805 23.9289 27.0711C24.3195 27.4616 24.9526 27.4616 25.3431 27.0711L31.7071 20.7071ZM9 21H31V19H9V21Z"
+                        fill="white"
+                      />
+                    </svg>
+                  </a>
                 </div>
               </div>
-              <a
-                href="#"
-                class="block w-full h-full"
-                aria-label="Attorneys Marketplace"
-                ><div
-                  class="flip-card-back flex flex-col items-center justify-center bg-ui-black rotate-[2.54deg] rounded-2xl min-w-[245px] min-h-[245px] max-h-[245px] max-w-[245px]"
-                >
-                  <div
-                    class="rotate-[-11.53deg] absolute left-[16%] top-[27%] max-w-[187px]"
-                  >
-                    <div class="text-base text-white">
-                      Find trustworthy local IP attorneys from 150+ countries
-                      that align with your objectives and criteria
-                    </div>
-                    <a
-                      href="#"
-                      class="block link mt-[30px] max-w-fit relative left-[75%]"
-                    >
-                      <svg
-                        width="40"
-                        height="40"
-                        viewBox="0 0 40 40"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <rect width="40" height="40" rx="20" fill="#F0A93B" />
-                        <path
-                          d="M9 19.5C8.72386 19.5 8.5 19.7239 8.5 20C8.5 20.2761 8.72386 20.5 9 20.5V19.5ZM31.3536 20.3536C31.5488 20.1583 31.5488 19.8417 31.3536 19.6464L28.1716 16.4645C27.9763 16.2692 27.6597 16.2692 27.4645 16.4645C27.2692 16.6597 27.2692 16.9763 27.4645 17.1716L30.2929 20L27.4645 22.8284C27.2692 23.0237 27.2692 23.3403 27.4645 23.5355C27.6597 23.7308 27.9763 23.7308 28.1716 23.5355L31.3536 20.3536ZM9 20.5H31V19.5H9V20.5Z"
-                          fill="white"
-                        />
-                      </svg>
-                    </a>
-                  </div>
-                </div>
-              </a>
             </div>
-          </div>
-          <div
-            class="flip-card card-forth rotate-[5.13deg] origin-top-left absolute bottom-[5%] left-[50%] min-w-[224px] min-h-[224px] 2xl:scale-[1.25] 2k:scale-[1.4] 4k:scale-[3]"
-            data-card="4"
-          >
             <div
-              class="flip-card-inner min-w-[224px] min-h-[224px] bg-white rounded-2xl shadow-inner"
+              class="card card-small mb-4 smx:min-h-[340px] mdx:min-h-[320px] tb:mb-0 tb:min-h-[350px] tbx:min-h-[320px] lg:rotate-[6.11deg] lg:min-w-[224px] lg:max-w-[224px] lg:max-h-[224px] lg:min-h-[224px]"
             >
               <div
-                class="flip-card-front flex flex-col items-center justify-center rotate-[2.5deg] bg-ui-light-gray rounded-2xl min-w-[186px] min-h-[186px] max-h-[186px] max-w-[186px]"
+                class="card-inner min-h-[278px] min-w-[90%] smx:min-w-[90%] smx:min-h-[295px] mdx:min-h-[275px] tb:min-h-[320px] tbx:min-h-[290px] lg:rotate-[8.65deg] lg:max-w-[186px] lg:max-h-[186px]"
+              ></div>
+              <div
+                class="card-content absolute top-[11%] left-[12%] lg:top-[73px] lg:left-[60px] lg:rotate-[-6.11deg]"
               >
+                <div class="card-front">
+                  <h4 class="text-md font-bold">
+                    <span class="text-ui-black">For </span>
+                    <div
+                      class="text-ui-blue px-1 py-0.5 inline-block rounded bg-white"
+                    >
+                      Tech Companies
+                    </div>
+                  </h4>
+                  <div
+                    class="mt-3 text-ui-gray text-base max-w-[224px] smx:max-w-[90%] smx:text-md"
+                  >
+                    Manage your IP portfolio and&nbsp;reduce costs in&nbsp;a
+                    half
+                  </div>
+                </div>
                 <div
-                  class="rotate-[-7.67deg] absolute left-[15%] max-w-[158px]"
-                >
-                  <h4 class="xl:text-md font-bold lg:text-base">
+                  class="divider mt-7 min-w-[224px] max smx:max-w-[90%] md:max-w-[80%] border border-white lg:hidden"
+                ></div>
+                <a href="#" class="card-back">
+                  <div
+                    class="mt-4 text-smm text-ui-gray max-w-[224px] smx:max-w-[90%] smx:text-base"
+                  >
+                    Control and analyse all your IP rights, work with&nbsp;local
+                    IP attorneys, and&nbsp;save your time and&nbsp;money
+                  </div>
+                  <a href="#" class="link block mt-4 max-w-fit lg:hidden">
+                    <svg
+                      width="40"
+                      height="40"
+                      viewBox="0 0 40 40"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect width="40" height="40" rx="20" fill="#F0A93B" />
+                      <path
+                        d="M9 19C8.44772 19 8 19.4477 8 20C8 20.5523 8.44772 21 9 21V19ZM31.7071 20.7071C32.0976 20.3166 32.0976 19.6834 31.7071 19.2929L25.3431 12.9289C24.9526 12.5384 24.3195 12.5384 23.9289 12.9289C23.5384 13.3195 23.5384 13.9526 23.9289 14.3431L29.5858 20L23.9289 25.6569C23.5384 26.0474 23.5384 26.6805 23.9289 27.0711C24.3195 27.4616 24.9526 27.4616 25.3431 27.0711L31.7071 20.7071ZM9 21H31V19H9V21Z"
+                        fill="white"
+                      />
+                    </svg>
+                  </a>
+                </a>
+              </div>
+            </div>
+            <div
+              class="card card-small mb-4 smx:min-h-[340px] mdx:min-h-[320px] tb:mb-0 tb:min-h-[350px] tbx:min-h-[320px] lg:rotate-[6.11deg] lg:min-w-[224px] lg:max-w-[224px] lg:max-h-[224px] lg:min-h-[224px]"
+            >
+              <div
+                class="card-inner min-h-[278px] min-w-[90%] smx:min-w-[90%] smx:min-h-[295px] mdx:min-h-[275px] tb:min-h-[320px] tbx:min-h-[290px] lg:rotate-[8.65deg] lg:max-w-[186px] lg:max-h-[186px]"
+              ></div>
+              <div
+                class="card-content absolute top-[11%] left-[12%] lg:top-[73px] lg:left-[60px] lg:rotate-[-6.11deg]"
+              >
+                <div class="card-front">
+                  <h4 class="text-md font-bold">
                     <span class="text-ui-black">For </span>
                     <div
                       class="text-ui-blue px-1 py-0.5 inline-block rounded bg-white"
@@ -734,105 +432,424 @@
                       Attorneys
                     </div>
                   </h4>
-                  <div class="mt-3 text-ui-gray text-base max-w-[224px]">
-                    Promote your profile, attract new clients, and earn more
+                  <div
+                    class="mt-3 text-ui-gray text-base max-w-[224px] smx:max-w-[90%] smx:text-md"
+                  >
+                    Promote your profile, attract new clients, and&nbsp;earn
+                    more
                   </div>
                 </div>
-              </div>
-              <a href="#" aria-label="For Attorneys"
-                ><div
-                  class="flip-card-back flex flex-col items-center justify-center bg-ui-black rotate-[2.54deg] rounded-2xl min-w-[186px] min-h-[186px] max-h-[186px] max-w-[186px]"
-                >
+                <div
+                  class="divider mt-7 min-w-[224px] max smx:max-w-[90%] md:max-w-[80%] border border-white lg:hidden"
+                ></div>
+                <div class="card-back">
                   <div
-                    class="rotate-[-7.67deg] absolute left-[11%] top-[14%] max-w-[158px]"
+                    class="mt-4 text-smm text-ui-gray max-w-[224px] smx:max-w-[90%] smx:text-base"
                   >
-                    <div class="lg:text-smm xl:text-base text-white">
-                      Promote your services on&nbsp;our marketplace and get more
-                      orders through its improved functionality
-                    </div>
-                    <a
-                      href="#"
-                      class="block link mt-0 max-w-fit relative left-[70%]"
+                    Promote your services on&nbsp;our marketplace and&nbsp;get
+                    more orders through its improved functionality
+                  </div>
+                  <a href="#" class="link block mt-4 lg:hidden max-w-fit">
+                    <svg
+                      width="40"
+                      height="40"
+                      viewBox="0 0 40 40"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
                     >
-                      <svg
-                        width="40"
-                        height="40"
-                        viewBox="0 0 40 40"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <rect width="40" height="40" rx="20" fill="#F0A93B" />
-                        <path
-                          d="M9 19.5C8.72386 19.5 8.5 19.7239 8.5 20C8.5 20.2761 8.72386 20.5 9 20.5V19.5ZM31.3536 20.3536C31.5488 20.1583 31.5488 19.8417 31.3536 19.6464L28.1716 16.4645C27.9763 16.2692 27.6597 16.2692 27.4645 16.4645C27.2692 16.6597 27.2692 16.9763 27.4645 17.1716L30.2929 20L27.4645 22.8284C27.2692 23.0237 27.2692 23.3403 27.4645 23.5355C27.6597 23.7308 27.9763 23.7308 28.1716 23.5355L31.3536 20.3536ZM9 20.5H31V19.5H9V20.5Z"
-                          fill="white"
-                        />
-                      </svg>
-                    </a>
-                  </div></div
-              ></a>
+                      <rect width="40" height="40" rx="20" fill="#F0A93B" />
+                      <path
+                        d="M9 19C8.44772 19 8 19.4477 8 20C8 20.5523 8.44772 21 9 21V19ZM31.7071 20.7071C32.0976 20.3166 32.0976 19.6834 31.7071 19.2929L25.3431 12.9289C24.9526 12.5384 24.3195 12.5384 23.9289 12.9289C23.5384 13.3195 23.5384 13.9526 23.9289 14.3431L29.5858 20L23.9289 25.6569C23.5384 26.0474 23.5384 26.6805 23.9289 27.0711C24.3195 27.4616 24.9526 27.4616 25.3431 27.0711L31.7071 20.7071ZM9 21H31V19H9V21Z"
+                        fill="white"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
             </div>
-          </div>
-
-          <div
-            class="flip-card card-fifth rotate-[-6.068deg] origin-top-left absolute bottom-[-3%] left-[5%] 2k:scale-[1.4] 4k:scale-[3]"
-            data-card="5"
-          >
             <div
-              class="flip-card-inner min-w-[286px] min-h-[286px] bg-white rounded-2xl shadow-inner"
+              class="card card-big mb-4 smx:min-h-max mdx:min-h-[320px] tb:mb-0 tb:min-h-[350px] tbx:min-h-[320px]"
             >
               <div
-                class="flip-card-front flex flex-col items-center justify-center rotate-[2.56deg] bg-ui-light-gray rounded-2xl min-w-[245px] min-h-[245px] max-h-[245px] max-w-[245px]"
+                class="card-inner min-h-[300px] min-w-[90%] smx:min-w-[90%] smx:min-h-[295px] mdx:min-h-[275px] tb:min-h-[320px] tbx:min-h-[290px] lg:rotate-[8.65deg] lg:max-w-[186px] lg:max-h-[186px]"
+              ></div>
+              <div
+                class="card-content absolute top-[11%] left-[12%] lg:top-[73px] lg:left-[60px] lg:rotate-[-6.11deg]"
               >
-                <div class="rotate-[3.52deg] absolute left-[11%] max-w-[207px]">
+                <div class="card-front">
                   <h4 class="text-md font-bold">
-                    <span class="text-ui-black">IPMS for </span>
+                    <span class="text-ui-black">IPMS for</span>
                     <div
                       class="text-ui-blue px-1 py-0.5 inline-block rounded bg-white"
                     >
                       Law Firms
                     </div>
                   </h4>
-                  <div class="mt-3 text-ui-gray text-base max-w-[224px]">
+                  <div
+                    class="mt-3 text-ui-gray text-base max-w-[224px] smx:max-w-[90%] smx:text-md"
+                  >
                     Optimise daily work, make clients happy and&nbsp;increase
                     sales
                   </div>
                 </div>
+                <div
+                  class="divider mt-7 min-w-[224px] max smx:max-w-[90%] md:max-w-[80%] border border-white lg:hidden"
+                ></div>
+                <div class="card-back">
+                  <div
+                    class="mt-4 text-smm text-ui-gray max-w-[224px] smx:max-w-[90%] smx:text-base"
+                  >
+                    Keep all your IP-work in&nbsp;one place, optimise routine,
+                    automate sales and&nbsp;earn more
+                  </div>
+                  <a href="#" class="block mt-4 lg:hidden max-w-fit link">
+                    <svg
+                      width="40"
+                      height="40"
+                      viewBox="0 0 40 40"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect width="40" height="40" rx="20" fill="#F0A93B" />
+                      <path
+                        d="M9 19C8.44772 19 8 19.4477 8 20C8 20.5523 8.44772 21 9 21V19ZM31.7071 20.7071C32.0976 20.3166 32.0976 19.6834 31.7071 19.2929L25.3431 12.9289C24.9526 12.5384 24.3195 12.5384 23.9289 12.9289C23.5384 13.3195 23.5384 13.9526 23.9289 14.3431L29.5858 20L23.9289 25.6569C23.5384 26.0474 23.5384 26.6805 23.9289 27.0711C24.3195 27.4616 24.9526 27.4616 25.3431 27.0711L31.7071 20.7071ZM9 21H31V19H9V21Z"
+                        fill="white"
+                      />
+                    </svg>
+                  </a>
+                </div>
               </div>
-              <a href="#" aria-label="For Tech Companies"
-                ><div
-                  class="flip-card-back flex flex-col items-center justify-center bg-ui-black rotate-[2.54deg] rounded-2xl min-w-[245px] min-h-[245px] max-h-[245px] max-w-[245px]"
+            </div>
+          </div>
+          <div
+            class="cards flip-cards hidden lg:block absolute w-screen h-full top-0 left-0 overflow-visible p-layer"
+            data-depth="0.6"
+          >
+            <div
+              class="flip-card rotate-[6.11deg] origin-top-left absolute top-[12%] left-[4%] min-w-fit min-h-fit 2xl:scale-[1.25] 2k:scale-[1.4] 3k:scale-[1.8] 4k:scale-[2.8]"
+              data-card="1"
+            >
+              <div
+                class="flip-card-inner min-h-[204px] min-w-[204px] xl:min-w-[224px] xl:min-h-[224px]"
+              >
+                <div
+                  class="flip-card-front rotate-[2.54deg] lg:min-w-[166px] min-h-[166px] xl:min-w-[186px] xl:min-h-[186px]"
                 >
                   <div
-                    class="rotate-[3.52deg] absolute left-[11%] top-[29%] max-w-[209px]"
+                    class="rotate-[-8.65deg] absolute left-[18%] max-w-[134px] 2xl:max-w-full"
                   >
-                    <div class="text-base text-white">
-                      Keep all your IP-work in&nbsp;one place, optimise routine,
-                      automate sales and earn more
-                    </div>
-                    <a
-                      href="#"
-                      class="block link mt-8 max-w-fit relative left-[80%]"
-                    >
-                      <svg
-                        width="40"
-                        height="40"
-                        viewBox="0 0 40 40"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
+                    <h4 class="xl:text-md font-bold lg:text-base">
+                      <span class="text-ui-black">AI </span>
+                      <div
+                        class="text-ui-blue px-1 py-0.5 inline-block rounded bg-white"
                       >
-                        <rect width="40" height="40" rx="20" fill="#F0A93B" />
-                        <path
-                          d="M9 19.5C8.72386 19.5 8.5 19.7239 8.5 20C8.5 20.2761 8.72386 20.5 9 20.5V19.5ZM31.3536 20.3536C31.5488 20.1583 31.5488 19.8417 31.3536 19.6464L28.1716 16.4645C27.9763 16.2692 27.6597 16.2692 27.4645 16.4645C27.2692 16.6597 27.2692 16.9763 27.4645 17.1716L30.2929 20L27.4645 22.8284C27.2692 23.0237 27.2692 23.3403 27.4645 23.5355C27.6597 23.7308 27.9763 23.7308 28.1716 23.5355L31.3536 20.3536ZM9 20.5H31V19.5H9V20.5Z"
-                          fill="white"
-                        />
-                      </svg>
-                    </a>
-                  </div></div
-              ></a>
+                        Assistant
+                      </div>
+                    </h4>
+                    <div
+                      class="mt-3 text-ui-gray max-w-[184px] xl:max-w-[224px] text-smm xl:text-base"
+                    >
+                      Get IP strategy, review costs, speed&nbsp;up tasks
+                    </div>
+                  </div>
+                </div>
+                <a href="#" aria-label="AI assistant"
+                  ><div
+                    class="flip-card-back rotate-[2.54deg] rounded-2xl min-h-[166px] min-w-[166px] xl:min-w-[186px] xl:min-h-[186px]"
+                  >
+                    <div
+                      class="rotate-[-8.65deg] absolute left-[10%] top-[14%] max-w-[138px] xl:left-[11%] xl:max-w-[158px]"
+                    >
+                      <div class="text-smm xl:text-base text-white">
+                        Have a quick chat with our AI&#8209;powered IP assistant
+                        to&nbsp;get IP strategy and&nbsp;send tasks
+                        for&nbsp;attorneys
+                      </div>
+                      <a
+                        href="#"
+                        class="block link xl:mt-2 mt-1 max-w-fit relative left-[70%] xl:left-[70%]"
+                      >
+                        <svg
+                          class="max-w-[35px] max-h-[35px] xl:max-w-[40px] xl:max-h-[40px]"
+                          width="40"
+                          height="40"
+                          viewBox="0 0 40 40"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <rect width="40" height="40" rx="20" fill="#F0A93B" />
+                          <path
+                            d="M9 19.5C8.72386 19.5 8.5 19.7239 8.5 20C8.5 20.2761 8.72386 20.5 9 20.5V19.5ZM31.3536 20.3536C31.5488 20.1583 31.5488 19.8417 31.3536 19.6464L28.1716 16.4645C27.9763 16.2692 27.6597 16.2692 27.4645 16.4645C27.2692 16.6597 27.2692 16.9763 27.4645 17.1716L30.2929 20L27.4645 22.8284C27.2692 23.0237 27.2692 23.3403 27.4645 23.5355C27.6597 23.7308 27.9763 23.7308 28.1716 23.5355L31.3536 20.3536ZM9 20.5H31V19.5H9V20.5Z"
+                            fill="white"
+                          />
+                        </svg>
+                      </a>
+                    </div></div
+                ></a>
+              </div>
+            </div>
+            <div
+              class="flip-card rotate-[-6.068deg] origin-top-left absolute top-[-7%] left-[38%] xl:left-[38%] 2xl:scale-[1.25] 2k:scale-[1.4] 3k:scale-[1.8] 4k:scale-[2.8]"
+              data-card="2"
+            >
+              <div
+                class="flip-card-inner min-w-[246px] min-h-[246px] xl:min-w-[286px] xl:min-h-[286px]"
+              >
+                <div
+                  class="flip-card-front rotate-[2.56deg] min-h-[205px] min-w-[205px] xl:min-w-[245px] xl:min-h-[245px]"
+                >
+                  <div
+                    class="rotate-[3.5deg] absolute left-[10%] xl:left-[11%] max-w-[207px]"
+                  >
+                    <h4 class="xl:text-md font-bold lg:text-base">
+                      <span class="text-ui-black">For </span>
+                      <div
+                        class="text-ui-blue px-1 py-0.5 inline-block rounded bg-white"
+                      >
+                        Tech Companies
+                      </div>
+                    </h4>
+                    <div
+                      class="mt-3 text-ui-gray xl:max-w-[224px] text-smm xl:text-base"
+                    >
+                      Manage your IP portfolio and&nbsp;reduce costs in&nbsp;a
+                      half
+                    </div>
+                  </div>
+                </div>
+                <a href="#" aria-label="For Tech Companies"
+                  ><div
+                    class="flip-card-back rotate-[2.54deg] min-h-[205px] min-w-[205px] xl:min-w-[245px] xl:min-h-[245px]"
+                  >
+                    <div
+                      class="rotate-[3.52deg] absolute left-[11%] top-[23%] max-w-[150px] xl:max-w-[180px]"
+                    >
+                      <div class="text-smm xl:text-base text-white">
+                        Control and analyse all your IP rights, work
+                        with&nbsp;local IP attorneys, and save your time and
+                        money
+                      </div>
+                      <a
+                        href="#"
+                        class="block link max-w-fit relative left-[92%] xl:left-[92%] xl:mt-4"
+                      >
+                        <svg
+                          class="max-w-[35px] max-h-[35px] xl:max-w-[40px] xl:max-h-[40px]"
+                          width="40"
+                          height="40"
+                          viewBox="0 0 40 40"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <rect width="40" height="40" rx="20" fill="#F0A93B" />
+                          <path
+                            d="M9 19.5C8.72386 19.5 8.5 19.7239 8.5 20C8.5 20.2761 8.72386 20.5 9 20.5V19.5ZM31.3536 20.3536C31.5488 20.1583 31.5488 19.8417 31.3536 19.6464L28.1716 16.4645C27.9763 16.2692 27.6597 16.2692 27.4645 16.4645C27.2692 16.6597 27.2692 16.9763 27.4645 17.1716L30.2929 20L27.4645 22.8284C27.2692 23.0237 27.2692 23.3403 27.4645 23.5355C27.6597 23.7308 27.9763 23.7308 28.1716 23.5355L31.3536 20.3536ZM9 20.5H31V19.5H9V20.5Z"
+                            fill="white"
+                          />
+                        </svg>
+                      </a>
+                    </div></div
+                ></a>
+              </div>
+            </div>
+            <div
+              class="flip-card rotate-[8.98deg] top-[20%] right-[-4.5%] xl:top-[15%] xl:right-[-4.3%] 2k:right-[4%] 4k-[top-10%] 4k:right-[9.5%] 2xl:right-[1.1%] 2xl:scale-[1.25] 2k:scale-[1.5] 3k:scale-[1.8] 3k:right-[5%] 4k:scale-[2.8]"
+              data-card="3"
+            >
+              <div
+                class="flip-card-inner min-w-[246px] min-h-[246px] xl:min-h-[286px] xl:min-w-[286px]"
+              >
+                <div
+                  class="flip-card-front min-w-[205px] min-h-[205px] xl:min-w-[245px] xl:min-h-[245px]"
+                >
+                  <div
+                    class="rotate-[-11.53deg] max-w-[215px] left-[6.6%] absolute xl:left-[10%] xl:top-[35%]"
+                  >
+                    <h4
+                      class="xl:text-md font-bold lg:text-base whitespace-nowrap"
+                    >
+                      <span class="text-ui-black">Attorney’s </span>
+                      <div
+                        class="text-ui-blue px-1 py-0.5 inline-block rounded bg-white"
+                      >
+                        Marketplace
+                      </div>
+                    </h4>
+                    <div
+                      class="mt-3 text-ui-gray max-w-[210px] text-smm xl:text-base"
+                    >
+                      Find and choose reliable attorneys to obtain any IP
+                      services worldwide
+                    </div>
+                  </div>
+                </div>
+                <a
+                  href="#"
+                  class="block w-full h-full"
+                  aria-label="Attorneys Marketplace"
+                  ><div
+                    class="flip-card-back rotate-[2.54deg] min-w-[205px] min-h-[205px] xl:min-w-[245px] xl:min-h-[245px] max-h-[245px] max-w-[245px]"
+                  >
+                    <div
+                      class="rotate-[-11.53deg] absolute left-[16%] top-[27%] max-w-[157px] xl:max-w-[187px]"
+                    >
+                      <div class="text-smm xl:text-base text-white">
+                        Find trustworthy local IP attorneys from 150+ countries
+                        that align with your objectives and criteria
+                      </div>
+                      <a
+                        href="#"
+                        class="block link xl:mt-[30px] max-w-fit relative left-[75%]"
+                      >
+                        <svg
+                          class="max-w-[35px] max-h-[35px] xl:max-w-[40px] xl:max-h-[40px]"
+                          width="40"
+                          height="40"
+                          viewBox="0 0 40 40"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <rect width="40" height="40" rx="20" fill="#F0A93B" />
+                          <path
+                            d="M9 19.5C8.72386 19.5 8.5 19.7239 8.5 20C8.5 20.2761 8.72386 20.5 9 20.5V19.5ZM31.3536 20.3536C31.5488 20.1583 31.5488 19.8417 31.3536 19.6464L28.1716 16.4645C27.9763 16.2692 27.6597 16.2692 27.4645 16.4645C27.2692 16.6597 27.2692 16.9763 27.4645 17.1716L30.2929 20L27.4645 22.8284C27.2692 23.0237 27.2692 23.3403 27.4645 23.5355C27.6597 23.7308 27.9763 23.7308 28.1716 23.5355L31.3536 20.3536ZM9 20.5H31V19.5H9V20.5Z"
+                            fill="white"
+                          />
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div
+              class="flip-card rotate-[5.13deg] bottom-[-2%] left-[43%] xl:bottom-[-5%] xl:left-[51%] 2xl:bottom-[1.5%] 2xl:scale-[1.25] 2k:bottom-[4%] 2k:scale-[1.5] 4k:bottom-[14%] 3k:scale-[1.8] 3k:bottom-[10%] 4k:scale-[2.8]"
+              data-card="4"
+            >
+              <div
+                class="flip-card-inner min-w-[204px] min-h-[204px] xl:min-w-[234px] xl:min-h-[234px]"
+              >
+                <div
+                  class="flip-card-front rotate-[2.5deg] min-w-[166px] min-h-[166px] xl:min-w-[186px] xl:min-h-[186px]"
+                >
+                  <div
+                    class="rotate-[-7.67deg] absolute left-[15%] max-w-[158px]"
+                  >
+                    <h4 class="xl:text-md font-bold lg:text-base">
+                      <span class="text-ui-black">For </span>
+                      <div
+                        class="text-ui-blue px-1 py-0.5 inline-block rounded bg-white"
+                      >
+                        Attorneys
+                      </div>
+                    </h4>
+                    <div
+                      class="mt-3 text-ui-gray max-w-[224px] text-smm xl:text-base"
+                    >
+                      Promote your profile, attract new clients, and earn more
+                    </div>
+                  </div>
+                </div>
+                <a href="#" aria-label="For Attorneys"
+                  ><div
+                    class="flip-card-back rotate-[2.54deg] min-w-[166px] min-h-[166px] xl:min-w-[186px] xl:min-h-[186px]"
+                  >
+                    <div
+                      class="rotate-[-7.67deg] absolute left-[11%] top-[14%] max-w-[138px] xl:max-w-[158px]"
+                    >
+                      <div class="lg:text-smm xl:text-base text-white">
+                        Promote your services on&nbsp;our marketplace and get
+                        more orders through its improved functionality
+                      </div>
+                      <a
+                        href="#"
+                        class="block link mt-0 max-w-fit relative left-[70%]"
+                      >
+                        <svg
+                          class="max-w-[35px] max-h-[35px] xl:max-w-[40px] xl:max-h-[40px]"
+                          width="40"
+                          height="40"
+                          viewBox="0 0 40 40"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <rect width="40" height="40" rx="20" fill="#F0A93B" />
+                          <path
+                            d="M9 19.5C8.72386 19.5 8.5 19.7239 8.5 20C8.5 20.2761 8.72386 20.5 9 20.5V19.5ZM31.3536 20.3536C31.5488 20.1583 31.5488 19.8417 31.3536 19.6464L28.1716 16.4645C27.9763 16.2692 27.6597 16.2692 27.4645 16.4645C27.2692 16.6597 27.2692 16.9763 27.4645 17.1716L30.2929 20L27.4645 22.8284C27.2692 23.0237 27.2692 23.3403 27.4645 23.5355C27.6597 23.7308 27.9763 23.7308 28.1716 23.5355L31.3536 20.3536ZM9 20.5H31V19.5H9V20.5Z"
+                            fill="white"
+                          />
+                        </svg>
+                      </a>
+                    </div></div
+                ></a>
+              </div>
+            </div>
+
+            <div
+              class="flip-card rotate-[-6.068deg] bottom-[-6%] left-[3%] xl:bottom-[-6%] xl:left-[4%] 2xl:scale-[1.25] 2xl:bottom-0 2k:scale-[1.5] 2k:bottom-[4%] 4k:bottom-[16%] 4k:scale-[2.8] 3k:scale-[1.8] 3k:bottom-[8%]"
+              data-card="5"
+            >
+              <div
+                class="flip-card-inner min-w-[246px] min-h-[246px] xl:min-w-[286px] xl:min-h-[286px]"
+              >
+                <div
+                  class="flip-card-front min-w-[206px] min-h-[206px] xl:min-w-[245px] xl:min-h-[245px]"
+                >
+                  <div
+                    class="rotate-[3.52deg] absolute left-[9%] xl:left-[11%] max-w-[187px] xl:max-w-[207px]"
+                  >
+                    <h4 class="xl:text-md font-bold lg:text-base">
+                      <span class="text-ui-black">IPMS for </span>
+                      <div
+                        class="text-ui-blue px-1 py-0.5 inline-block rounded bg-white"
+                      >
+                        Law Firms
+                      </div>
+                    </h4>
+                    <div
+                      class="mt-3 text-ui-gray max-w-[224px] text-smm xl:text-base"
+                    >
+                      Optimise daily work, make clients happy and&nbsp;increase
+                      sales
+                    </div>
+                  </div>
+                </div>
+                <a href="#" aria-label="For Tech Companies"
+                  ><div
+                    class="flip-card-back rotate-[2.54deg] min-w-[206px] min-h-[206px] xl:min-w-[245px] xl:min-h-[245px]"
+                  >
+                    <div
+                      class="rotate-[3.52deg] absolute left-[10%] xl:left-[11%] top-[29%] max-w-[169px] xl:max-w-[209px]"
+                    >
+                      <div class="lg:text-smm xl:text-base text-white">
+                        Keep all your IP-work in&nbsp;one place, optimise
+                        routine, automate sales and earn more
+                      </div>
+                      <a
+                        href="#"
+                        class="block link mt-4 xl:mt-8 max-w-fit relative left-[83%] xl:left-[80%]"
+                      >
+                        <svg
+                          class="max-w-[35px] max-h-[35px] xl:max-w-[40px] xl:max-h-[40px]"
+                          width="40"
+                          height="40"
+                          viewBox="0 0 40 40"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <rect width="40" height="40" rx="20" fill="#F0A93B" />
+                          <path
+                            d="M9 19.5C8.72386 19.5 8.5 19.7239 8.5 20C8.5 20.2761 8.72386 20.5 9 20.5V19.5ZM31.3536 20.3536C31.5488 20.1583 31.5488 19.8417 31.3536 19.6464L28.1716 16.4645C27.9763 16.2692 27.6597 16.2692 27.4645 16.4645C27.2692 16.6597 27.2692 16.9763 27.4645 17.1716L30.2929 20L27.4645 22.8284C27.2692 23.0237 27.2692 23.3403 27.4645 23.5355C27.6597 23.7308 27.9763 23.7308 28.1716 23.5355L31.3536 20.3536ZM9 20.5H31V19.5H9V20.5Z"
+                            fill="white"
+                          />
+                        </svg>
+                      </a>
+                    </div></div
+                ></a>
+              </div>
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </main>
   </body>
 </html>

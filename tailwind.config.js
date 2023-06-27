@@ -5,6 +5,7 @@ export default {
     screens: {
       sm: '320px',
       smx: '375px',
+      mx: '425px',
       md: '480px',
       mdx: '520px',
       tb: '720px',
@@ -13,6 +14,7 @@ export default {
       xl: '1280px',
       '2xl': '1536px',
       '2k': '1920px',
+      '3k': '2560px',
       '4k': '3500px'
     },
 
