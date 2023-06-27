@@ -16,6 +16,6 @@ if (['tablet', 'laptop'].includes(deviceType)) {
     }, cardIndex * 300);
     setTimeout(() => {
       card.classList.add('pointer-events-auto');
-    }, cardIndex * 1000);
+    }, cardIndex * 600);
   });
 }
