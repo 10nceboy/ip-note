@@ -176,7 +176,7 @@
 }
 
 .flip-card-back {
-  transform: rotateY(180deg) translateZ(1px);
+  transform: rotate(-2.54deg) rotateY(180deg) translateZ(1px);
 }
 
 .fade-in {
