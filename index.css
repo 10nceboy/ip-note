@@ -189,7 +189,6 @@
 .fade-in-delay {
   opacity: 1;
   transition: opacity 0.3s 0.3s ease-in-out;
-  pointer-events: all;
 }
 
 @media screen and (min-width: 960px) {

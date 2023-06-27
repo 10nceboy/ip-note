@@ -14,5 +14,8 @@ if (['tablet', 'laptop'].includes(deviceType)) {
     setTimeout(() => {
       card.classList.add('fade-in-delay');
     }, cardIndex * 500);
+    setTimeout(() => {
+      card.classList.add('pointer-events-auto');
+    }, 3000);
   });
 }
