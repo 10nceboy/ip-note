@@ -13,6 +13,7 @@ export default {
       lg: '960px',
       xl: '1280px',
       '2xl': '1536px',
+      '3xl': '1800px',
       '2k': '1920px',
       '3k': '2560px',
       '4k': '3500px'
