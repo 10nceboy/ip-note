@@ -40,7 +40,7 @@
   }
 
   .flip-card-back {
-    @apply flex flex-col cursor-pointer items-center justify-center bg-ui-black rounded-2xl;
+    @apply flex flex-col items-center justify-center bg-ui-black rounded-2xl;
   }
 
   .ellipse {
@@ -176,7 +176,7 @@
 }
 
 .flip-card-back {
-  transform: rotate(-2.54deg) rotateY(180deg) translateZ(1px);
+  transform: rotateY(180deg) translateZ(1px);
 }
 
 .fade-in {
