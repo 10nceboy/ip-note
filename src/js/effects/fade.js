@@ -13,9 +13,9 @@ if (['tablet', 'laptop'].includes(deviceType)) {
     let cardIndex = card.dataset.card;
     setTimeout(() => {
       card.classList.add('fade-in-delay');
-    }, cardIndex * 300);
+    }, cardIndex * 500);
     setTimeout(() => {
       card.classList.add('pointer-events-auto');
-    }, cardIndex * 600);
+    }, cardIndex * 1000);
   });
 }
