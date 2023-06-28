@@ -187,16 +187,19 @@
   transform: rotate(-2.54deg) rotateY(180deg) translateZ(1px);
 }
 
-.fade-in {
+.fade-in-menu {
   animation: fade-in 0.5s ease-in-out;
   opacity: 1;
-  animation: fade-in 1s;
-  animation-timing-function: cubic-bezier(0.5, 0.25, 0.5, 0.75);
 }
 
 .fade-in-delay {
   opacity: 1;
   transition: opacity 0.5s 0.3s ease-in-out;
+}
+
+.fade-in-header {
+  animation: fade-in 1s;
+  animation-timing-function: cubic-bezier(0.5, 0.25, 0.5, 0.75);
 }
 
 @media screen and (min-width: 960px) {
