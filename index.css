@@ -193,7 +193,7 @@
 
 .fade-in-delay {
   opacity: 1;
-  transition: opacity 0.5s 0.7s ease-in-out;
+  transition: opacity 0.5s 0.3s ease-in-out;
 }
 
 @media screen and (min-width: 960px) {
