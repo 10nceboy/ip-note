@@ -151,8 +151,9 @@
 }
 
 .flip-card {
-  perspective: 1000px;
+  perspective: 900px;
   filter: blur(0);
+  -webkit-font-smoothing: antialiased;
 }
 
 .card {
@@ -192,7 +193,7 @@
 
 .fade-in-delay {
   opacity: 1;
-  transition: opacity 0.5s 0.5s ease-in-out;
+  transition: opacity 0.5s 0.7s ease-in-out;
 }
 
 @media screen and (min-width: 960px) {
@@ -211,19 +212,66 @@
   .main-header {
     display: flex !important;
     pointer-events: all;
+    animation: fade-in 1s;
+    animation-timing-function: cubic-bezier(0.5, 0.25, 0.5, 0.75);
   }
 }
 
 @keyframes fade-in {
   0% {
-    opacity: 0;
+    opacity: 0%;
+  }
+
+  40% {
+    opacity: 40%;
+  }
+
+  60% {
+    opacity: 60%;
+  }
+
+  80% {
+    opacity: 80%;
   }
 
   100% {
-    opacity: 1;
+    opacity: 100%;
   }
 }
 
 #scene {
   overflow: hidden;
+}
+
+@keyframes reveal {
+  0% {
+    width: 100%;
+  }
+
+  20% {
+    width: 80%;
+  }
+
+  40% {
+    width: 60%;
+  }
+
+  60% {
+    width: 40%;
+  }
+
+  80% {
+    width: 20%;
+  }
+
+  100% {
+    width: 0%;
+  }
+}
+
+.reveal {
+  animation: reveal 1s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+  background: linear-gradient(90deg, transparent 0%, #f3f4f7, #f3f4f7 100%);
 }
